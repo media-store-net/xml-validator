@@ -1,0 +1,31 @@
+{
+  "name": "media-store-net/xml-validator",
+  "description": "XmlValidator is a small Xml Validator by Using a XSD Schema",
+  "require": {
+    "php": ">=7.2",
+    "ext-xmlreader": "*",
+    "ext-libxml": "*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Artur Voll",
+      "email": "artur.voll@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MediaStoreNet\\XmlValidator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MediaStoreNet\\XmlValidator\\Test\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require-dev": {
+    "phpunit/phpunit": "9.5.x-dev",
+    "phpstan/phpstan": "0.12.x-dev"
+  }
+}
